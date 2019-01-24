@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="PhpTravels" duration-ms="17753" started-at="2019-01-24T13:56:06Z" finished-at="2019-01-24T13:56:24Z">
+  <suite name="PhpTravels" duration-ms="10240" started-at="2019-01-24T14:32:01Z" finished-at="2019-01-24T14:32:12Z">
     <groups>
     </groups>
-    <test name="Data Tests" duration-ms="17753" started-at="2019-01-24T13:56:06Z" finished-at="2019-01-24T13:56:24Z">
+    <test name="Data Tests" duration-ms="10240" started-at="2019-01-24T14:32:01Z" finished-at="2019-01-24T14:32:12Z">
       <class name="com.selenium.hybridfw.tests.HomeTests">
-        <test-method status="PASS" signature="beforeAllClasses()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="beforeAllClasses" is-config="true" duration-ms="14417" started-at="2019-01-24T08:56:06Z" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="beforeAllClasses()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="beforeAllClasses" is-config="true" duration-ms="8708" started-at="2019-01-24T09:32:02Z" finished-at="2019-01-24T09:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAllClasses -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="setup" is-config="true" duration-ms="76" started-at="2019-01-24T08:56:21Z" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="setup" is-config="true" duration-ms="24" started-at="2019-01-24T09:32:10Z" finished-at="2019-01-24T09:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logValidation()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="logValidation" duration-ms="57" started-at="2019-01-24T08:56:21Z" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="logValidation()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="logValidation" duration-ms="21" started-at="2019-01-24T09:32:10Z" finished-at="2019-01-24T09:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logValidation -->
-        <test-method status="PASS" signature="logValidation2()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="logValidation2" duration-ms="9" started-at="2019-01-24T08:56:21Z" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="logValidation2()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="logValidation2" duration-ms="2" started-at="2019-01-24T09:32:10Z" finished-at="2019-01-24T09:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logValidation2 -->
-        <test-method status="PASS" signature="logValidation3()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="logValidation3" duration-ms="7" started-at="2019-01-24T08:56:21Z" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="logValidation3()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="logValidation3" duration-ms="4" started-at="2019-01-24T09:32:10Z" finished-at="2019-01-24T09:32:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logValidation3 -->
-        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="verify" duration-ms="1" started-at="2019-01-24T08:56:21Z" data-provider="Locations" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="verify" duration-ms="0" started-at="2019-01-24T09:32:10Z" data-provider="Locations" finished-at="2019-01-24T09:32:10Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="verify" duration-ms="3" started-at="2019-01-24T08:56:21Z" data-provider="Locations" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="verify" duration-ms="1" started-at="2019-01-24T09:32:10Z" data-provider="Locations" finished-at="2019-01-24T09:32:10Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="verify" duration-ms="23" started-at="2019-01-24T08:56:21Z" data-provider="Locations" finished-at="2019-01-24T08:56:21Z">
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="verify" duration-ms="2" started-at="2019-01-24T09:32:10Z" data-provider="Locations" finished-at="2019-01-24T09:32:10Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@1a5b6f42]" name="tearDown" is-config="true" duration-ms="2810" started-at="2019-01-24T08:56:21Z" finished-at="2019-01-24T08:56:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@28194a50]" name="tearDown" is-config="true" duration-ms="1343" started-at="2019-01-24T09:32:10Z" finished-at="2019-01-24T09:32:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14446" started-at="2018-09-03T02:19:57Z" finished-at="2018-09-03T02:20:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14446" started-at="2018-09-03T02:19:57Z" finished-at="2018-09-03T02:20:11Z">
+      <class name="com.selenium.hybridfw.tests.HomeTests">
+        <test-method status="PASS" signature="beforeAllClasses()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="beforeAllClasses" is-config="true" duration-ms="13435" started-at="2018-09-03T07:49:57Z" finished-at="2018-09-03T07:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllClasses -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="setup" is-config="true" duration-ms="40" started-at="2018-09-03T07:50:10Z" finished-at="2018-09-03T07:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logValidation()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="logValidation" duration-ms="58" started-at="2018-09-03T07:50:10Z" finished-at="2018-09-03T07:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logValidation -->
+        <test-method status="PASS" signature="logValidation2()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="logValidation2" duration-ms="3" started-at="2018-09-03T07:50:10Z" finished-at="2018-09-03T07:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logValidation2 -->
+        <test-method status="PASS" signature="logValidation3()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="logValidation3" duration-ms="3" started-at="2018-09-03T07:50:10Z" finished-at="2018-09-03T07:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logValidation3 -->
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="verify" duration-ms="4" started-at="2018-09-03T07:50:10Z" data-provider="Locations" finished-at="2018-09-03T07:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="verify" duration-ms="2" started-at="2018-09-03T07:50:10Z" data-provider="Locations" finished-at="2018-09-03T07:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="verify(java.lang.String)[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="verify" duration-ms="1" started-at="2018-09-03T07:50:10Z" data-provider="Locations" finished-at="2018-09-03T07:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.hybridfw.tests.HomeTests@6692b6c6]" name="tearDown" is-config="true" duration-ms="811" started-at="2018-09-03T07:50:10Z" finished-at="2018-09-03T07:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.hybridfw.tests.HomeTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

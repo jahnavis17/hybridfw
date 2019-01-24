@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PhpTravels]">
+  <listeners>
+    <listener class-name="com.selenium.hybridfw.utils.Listeners"/>
+  </listeners>
+  <test name="Data Tests(failed)">
+    <parameter name="sUsername" value="testuser_1"/>
+    <parameter name="hotelLocation" value="Bangalore"/>
+    <parameter name="results" value="No Results!!"/>
+    <parameter name="sPassword" value="Test@123"/>
+    <classes>
+      <class name="com.selenium.hybridfw.tests.HomeTests">
+        <methods>
+          <include name="verify" invocation-numbers="0 1 2"/>
+          <include name="beforeAllClasses"/>
+          <include name="logValidation2"/>
+          <include name="logValidation3"/>
+          <include name="logValidation"/>
+        </methods>
+      </class> <!-- com.selenium.hybridfw.tests.HomeTests -->
+    </classes>
+  </test> <!-- Data Tests(failed) -->
+</suite> <!-- Failed suite [PhpTravels] -->

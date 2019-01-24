@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PhpTravels">
+              <span class="suite-name border-passed">PhpTravels</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PhpTravels">
+                    <span>C:\Users\Hari\Desktop\GITHUB\hybridfw\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PhpTravels">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PhpTravels">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PhpTravels">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PhpTravels">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PhpTravels">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PhpTravels">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PhpTravels" class="hide-methods passed suite-PhpTravels"> (hide)</a> <!-- hide-methods passed suite-PhpTravels -->
+                      <a href="#" panel-name="suite-PhpTravels" class="show-methods passed suite-PhpTravels"> (show)</a> <!-- show-methods passed suite-PhpTravels -->
+                    </span>
+                    <div class="method-list-content passed suite-PhpTravels">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="logValidation">logValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="logValidation2">logValidation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="logValidation3">logValidation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="verify(Chennai)">verify(Chennai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="verify(Bangalore)">verify(Bangalore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PhpTravels" title="com.selenium.hybridfw.tests.HomeTests" hash-for-method="verify(New Delhi)">verify(New Delhi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PhpTravels -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PhpTravels" class="panel PhpTravels">
+          <div class="suite-PhpTravels-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hybridfw.tests.HomeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logValidation">
+                  </a> <!-- logValidation -->
+                  <span class="method-name">logValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logValidation2">
+                  </a> <!-- logValidation2 -->
+                  <span class="method-name">logValidation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logValidation3">
+                  </a> <!-- logValidation3 -->
+                  <span class="method-name">logValidation3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify(Chennai)">
+                  </a> <!-- verify(Chennai) -->
+                  <span class="method-name">verify</span>
+                  <span class="parameters">(Chennai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify(Bangalore)">
+                  </a> <!-- verify(Bangalore) -->
+                  <span class="method-name">verify</span>
+                  <span class="parameters">(Bangalore)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify(New Delhi)">
+                  </a> <!-- verify(New Delhi) -->
+                  <span class="method-name">verify</span>
+                  <span class="parameters">(New Delhi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PhpTravels-class-passed -->
+        </div> <!-- panel PhpTravels -->
+        <div panel-name="test-xml-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Hari\Desktop\GITHUB\hybridfw\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;PhpTravels&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.selenium.hybridfw.utils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Data Tests&quot;&gt;
+    &lt;parameter name=&quot;sUsername&quot; value=&quot;testuser_1&quot;/&gt;
+    &lt;parameter name=&quot;hotelLocation&quot; value=&quot;Bangalore&quot;/&gt;
+    &lt;parameter name=&quot;results&quot; value=&quot;No Results!!&quot;/&gt;
+    &lt;parameter name=&quot;sPassword&quot; value=&quot;Test@123&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hybridfw.tests.HomeTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Data Tests --&gt;
+&lt;/suite&gt; &lt;!-- PhpTravels --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PhpTravels</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Data Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PhpTravels</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PhpTravels</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PhpTravels');
+function tableData_PhpTravels() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'logValidation')
+data.setCell(0, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(0, 3, 57);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify')
+data.setCell(1, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(1, 3, 23);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logValidation2')
+data.setCell(2, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(2, 3, 9);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logValidation3')
+data.setCell(3, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify')
+data.setCell(4, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify')
+data.setCell(5, 2, 'com.selenium.hybridfw.tests.HomeTests')
+data.setCell(5, 3, 1);
+window.suiteTableData['PhpTravels']= { tableData: data, tableDiv: 'times-div-PhpTravels'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 100 ms</span>
+              <div id="times-div-PhpTravels">
+              </div> <!-- times-div-PhpTravels -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PhpTravels</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.hybridfw.tests.HomeTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_parameter</span>
+                <br/>
+                <span class="ignored-method-name">verify_data</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PhpTravels" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hybridfw.tests.HomeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAllClasses</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">logValidation</span>
+                <span class="method-start">14528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logValidation2</span>
+                <span class="method-start">14591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logValidation3</span>
+                <span class="method-start">14602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify(Bangalore)</span>
+                <span class="method-start">14624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify(Chennai)</span>
+                <span class="method-start">14636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify(New Delhi)</span>
+                <span class="method-start">14641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14667 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
